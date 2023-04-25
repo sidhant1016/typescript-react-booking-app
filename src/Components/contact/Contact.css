@@ -1,0 +1,58 @@
+.contact {
+    background-color: #226bd1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .contactText {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contactDesc {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contactInputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .contactInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .contactInput::placeholder {
+    color: #ccc;
+  }
+  
+  .contactInput:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .contactButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .contactButton:hover {
+    background-color: #FDB813;
+  }
+  

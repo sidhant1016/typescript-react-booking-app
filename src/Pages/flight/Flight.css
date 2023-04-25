@@ -1,0 +1,23 @@
+/* CSS for the Flight component */
+.flightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .flight {
+    background-color: #eee;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+  }
+  
